@@ -26,7 +26,7 @@ session operates in a virtual environment set up by `conda`.
 
 Once `pip` has finished downloading the dependencies:
 ```sh
-(env)$ cd project
+(env)$ cd walletService
 (env)$ python manage.py makemigrations
 (env)$ python manage.py migrate
 (env)$ python manage.py runserver
