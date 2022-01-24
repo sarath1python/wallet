@@ -40,7 +40,7 @@ class CustomerView(generics.CreateAPIView):
             return Response({
                 "data":
                     {
-                        "errors": serializer.errors,
+                        "error": serializer.errors,
                     },
                 "status": sc.STATUS_FAIL
                 }, status=status.HTTP_400_BAD_REQUEST)
